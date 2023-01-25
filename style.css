@@ -41,15 +41,13 @@
             font-size: 40px;
         }
         .result{
-            font-size: 28px;
+            font-size: 22px;
         }
-        #reset{
-            margin-left: 18px;
-            margin-right: 12px;
-        }
+    
         .container{
             max-height: 344px;
         }
+        
     }
 /* riya */
 .gamecontainer{
@@ -76,7 +74,7 @@
     background-color:#D980FA ;
 }
 #reset{
-    margin-left: 47%;
+    margin-left: 45%;
     font-size: 23px;
     margin-top: 18px;
 }
