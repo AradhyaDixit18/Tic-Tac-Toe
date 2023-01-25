@@ -1,0 +1,120 @@
+.header{
+    background-color: #9980FA;
+    font-size: 22px;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.gamecontainer{
+    font-size: 120px;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-template-columns: repeat(3 , 10vw);
+    grid-template-rows: repeat(3 , 10vw);
+    margin-bottom: 12px;
+    border-radius: 24px;
+    
+
+    
+}
+#turn{
+    background-color:#D980FA ;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    background-color:#D980FA ;
+}
+#reset{
+    margin-left: 47%;
+    font-size: 23px;
+    margin-top: 18px;
+}
+
+.container{
+    background-color: #D980FA;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.box{
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+   
+}
+.box:hover{
+    background-color: #5a5470;
+}
+
+.footer{
+    background-color: #9980FA;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img{
+    margin-left: 12px;
+    height: 42px;
+    width: 42px;
+}
+#img:hover{
+    margin-left: 12px;
+    height: 62px;
+    width: 62px;
+}
+
+.br{
+    border-right: 0px;
+}
+.bt{
+    border-top: 0px;
+}
+.bb{
+    border-bottom: 0px;
+}
+.bl{
+    border-left: 0px;
+}
+
+.result{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.result button{
+    background-color: blue;
+    border-radius: 20px;
+    font-size: 22px;
+    color: white;
+
+}
+
+.result h1{
+    font-size: 45px;
+    color: white;
+    background: rgba(0,0,100,0.5);
+}
+
+.inactive{
+    display: none;
+}
