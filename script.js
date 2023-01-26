@@ -4,7 +4,6 @@ let count = 1;
 
 let boxval = document.querySelectorAll(".box");
 
-let tick = document.getElementById("tick");
 
 let resaudio = document.getElementById("reset");
 
